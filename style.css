@@ -1,71 +1,53 @@
-body{
+body {
     display: grid;
     margin: 0;
-    background : url(knife.jpg);
+    background: url(Lotus.JPG);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-
-
-.navbar {
-    font-family: "Lato", "Arial", sans-serif;
-    padding: 1em;
+.container {
+    text-align: center;
+    text-shadow: 2px;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(203, 203, 201, 0.4);
 }
 
-.nav_list {
-    display: flex;
-    list-style: none;
-    font-size: 1.6em;
-    border-radius: 4px;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
+p {
+    text-align: center;
+    color: #2E3021;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    top: 0;
 }
-
-li {
-    padding: 0.2em 1.4em 0.2em 1.4em;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.1s linear;
-}
-
-a:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
-    -o-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
-    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
-    border-radius: 1px;
-}
-
-
 
 .menu {
-	display: flex;
+    display: flex;
     flex-wrap: nowrap;
-    margin-top: 11em;
-    margin-left: 20px;
-    margin-right: 20px; 
+    align-items: center;
+    height: 400px;
+    margin-top: 12em;
+    margin-left: 160px;
+    margin-right: 20px;
 }
 
 img {
     cursor: pointer;
-	width: 600px;
-    height: 400px;
-    margin: 20px;
+    width: auto;
+    height: inherit;
+    margin: 70px;
+    -moz-box-shadow: 4px 4px 5px #888888;
+    -ms-box-shadow: 4px 4px 5px #888888;
+    -webkit-box-shadow: 4px 4px 5px #888888;
+    -o-box-shadow: 4px 4px 5px #888888;
+    box-shadow: 4px 4px 5px #888888;
     transition: all 1s;
     transition-delay: 50ms;
 }
 
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
